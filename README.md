@@ -4,18 +4,18 @@ Node.js user authentication API with register, login, logout, profile retrieval,
 
 ## Usage
 
-- Create a MongoDB database and obtain your MongoDB URI - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register).
-- Or set up a local MongoDB database with `"mongodb://localhost:27017/"`.
+- Create a MongoDB database and get your MongoDB URI - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register).
+- Or set up a local MongoDB database with `"mongodb://localhost:27017/<database-name>"`.
 
 ### Env Variables
 
 Rename the `.env.example` file to `.env` and add your MongoDB URI and JWT_SECRET.
 
 ```
-NODE_ENV = "development"
-PORT = 5000
-MONGO_URI = "mongodb://localhost:27017/<database-name>"
-JWT_SECRET = "abc123"
+NODE_ENV=development
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/<database-name>
+JWT_SECRET=abc123
 ```
 
 ### Install Dependencies
